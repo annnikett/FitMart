@@ -13,7 +13,7 @@ const allowedOrigins = allowedOrigin
   .split(",")
   .map((s) => s.trim())
   .filter(Boolean);
-
+//aniket
 const isDev = process.env.NODE_ENV !== "production";
 const allowAllOrigins = process.env.ALLOW_ALL_ORIGINS === "true" || isDev;
 
